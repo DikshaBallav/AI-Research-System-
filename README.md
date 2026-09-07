@@ -34,17 +34,17 @@ python-dotenv
 
 ## 🧠 How It Works
 
-## User Topic
+User Topic
     ↓
-## Search Agent 🔎
+Search Agent 🔎
     ↓
-## Reader Agent 🌐
+Reader Agent 🌐
     ↓
-## Writer Chain 📝
+Writer Chain 📝
     ↓
-## Critic Chain 📊
+Critic Chain 📊
     ↓
-## Final Research Report
+Final Research Report
 ## 🔹 Search Agent
 
 Searches the web for relevant information using LangChain and Tavily.
