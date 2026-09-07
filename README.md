@@ -34,17 +34,7 @@ python-dotenv.
 
 ## 🧠 How It Works
 
-User Topic
-    ↓
-Search Agent 🔎
-    ↓
-Reader Agent 🌐
-    ↓
-Writer Chain 📝
-    ↓
-Critic Chain 📊
-    ↓
-Final Research Report
+User Topic → Search Agent 🔎  → Reader Agent 🌐  → Writer Chain 📝  → Critic Chain 📊  → Final Research Report
 ## 🔹 Search Agent
 
 Searches the web for relevant information using LangChain and Tavily.
@@ -77,17 +67,7 @@ Traditional research involves searching multiple sources, reading information, t
 
 This project automates much of that process using LLMs, LangChain agents, and external research tools:
 
-Research Topic
-      ↓
-AI Search
-      ↓
-AI Reading
-      ↓
-AI Writing
-      ↓
-AI Criticism
-      ↓
-Research Report
+Research Topic → AI Search  → AI Reading  → AI Writing  → AI Criticism  → Research Report
 
 ## 🚀 Live Demo
 
