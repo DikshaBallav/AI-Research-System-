@@ -1,14 +1,12 @@
-## 🔬 AI Research System
+# 🔬 Agentic AI Research Assistant using LangChain, Google Gemini & Streamlit
 
-## AI-Powered Multi-Agent Research Assistant using LangChain, Google Gemini & Streamlit
+An **Agentic AI-powered research assistant** that automates the research process using **LangChain agents, Google Gemini 2.5 Flash, Tavily, web scraping, and AI-based report evaluation**.
 
-An AI-powered research assistant that automates the research process using LangChain agents, Google Gemini 2.5 Flash, web search, web scraping, report generation, and AI-based criticism.
+The system follows a multi-step research workflow:
 
-The system takes a research topic and follows a multi-step pipeline:
+**Search → Read → Write → Critic**
 
-Search → Read → Write → Critic
-
-The final output is a structured research report along with AI-generated feedback and a quality score.
+It autonomously performs web research, extracts relevant information, generates a structured research report, and evaluates the final output with AI-generated feedback and a quality score.
 
 ## ✨ Features
 
@@ -63,13 +61,15 @@ Evaluates the generated report and provides a score, strengths, weaknesses, and 
 
 ## 🌟 Why This Project?
 
-Traditional research involves searching multiple sources, reading information, taking notes, writing a report, and reviewing it.
+This project demonstrates how **Agentic AI and LangChain** can be used to automate a complete research workflow.
 
-This project automates much of that process using LLMs, LangChain agents, and external research tools:
+Instead of performing each research step manually, specialized AI agents handle different tasks:
 
-Research Topic → AI Search  → AI Reading  → AI Writing  → AI Criticism  → Research Report
+**Search → Read → Write → Critic**
+
+This showcases the use of **LLMs, AI agents, tool integration, prompt engineering, and multi-step AI workflows** to build a practical Agentic AI application.
 
 ## 🚀 Live Demo
 
 🌐 **Streamlit App:**
-👉 **[AI Research System](https://ux9j4rdlhhcns8eirk7jy3.streamlit.app/)**
+👉 **[Agentic AI Research System](https://ux9j4rdlhhcns8eirk7jy3.streamlit.app/)**
