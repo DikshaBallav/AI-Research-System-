@@ -1,5 +1,6 @@
 from langchain.agents import create_agent
-from langchain_ollama import ChatOllama
+import streamlit as st
+from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 from tools import web_search , scrape_url 
@@ -8,9 +9,10 @@ from dotenv import load_dotenv
 load_dotenv()
 
 #model setup 
-llm = ChatOllama(
-    model="llama3.2",
-    temperature=0
+llm = ChatGoogleGenerativeAI(
+    model="gemini-2.5-flash",
+    temperature=0,
+    google_api_key=st.secrets["GOOGLE_API_KEY"]
 )
 
 
