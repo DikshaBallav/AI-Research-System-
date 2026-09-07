@@ -1,5 +1,6 @@
 ## 🔬 AI Research System
-AI-Powered Multi-Agent Research Assistant using LangChain, Google Gemini & Streamlit
+
+## AI-Powered Multi-Agent Research Assistant using LangChain, Google Gemini & Streamlit
 
 An AI-powered research assistant that automates the research process using LangChain agents, Google Gemini 2.5 Flash, web search, web scraping, report generation, and AI-based criticism.
 
@@ -10,6 +11,7 @@ Search → Read → Write → Critic
 The final output is a structured research report along with AI-generated feedback and a quality score.
 
 ## ✨ Features
+
 🔎 AI-powered web research
 🤖 LangChain-based AI agents
 🌐 Web scraping and information extraction
@@ -20,6 +22,7 @@ The final output is a structured research report along with AI-generated feedbac
 📥 Downloadable research report
 
 ## 🛠️ Tech Stack
+
 Python
 LangChain
 Google Gemini 2.5 Flash
@@ -30,34 +33,36 @@ Streamlit
 python-dotenv
 
 ## 🧠 How It Works
-User Topic
+
+## User Topic
     ↓
-Search Agent 🔎
+## Search Agent 🔎
     ↓
-Reader Agent 🌐
+## Reader Agent 🌐
     ↓
-Writer Chain 📝
+## Writer Chain 📝
     ↓
-Critic Chain 📊
+## Critic Chain 📊
     ↓
-Final Research Report
-🔹 Search Agent
+## Final Research Report
+## 🔹 Search Agent
 
 Searches the web for relevant information using LangChain and Tavily.
 
-🔹 Reader Agent
+## 🔹 Reader Agent
 
 Selects a relevant source and extracts useful information from the webpage.
 
-🔹 Writer Chain
+## 🔹 Writer Chain
 
 Uses Google Gemini 2.5 Flash to generate a structured research report.
 
-🔹 Critic Chain
+## 🔹 Critic Chain
 
 Evaluates the generated report and provides a score, strengths, weaknesses, and feedback.
 
 ## 🎯 Use Cases
+
 🎓 Students & academic research
 🔬 Technical research
 💼 Business & market research
@@ -87,4 +92,4 @@ Research Report
 ## 🚀 Live Demo
 
 🌐 **Streamlit App:**
-👉 **[https://ux9j4rdlhhcns8eirk7jy3.streamlit.app/]**
+👉 **[AI Research System](https://ux9j4rdlhhcns8eirk7jy3.streamlit.app/)**
