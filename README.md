@@ -23,14 +23,14 @@ The final output is a structured research report along with AI-generated feedbac
 
 ## 🛠️ Tech Stack
 
-Python
-LangChain
-Google Gemini 2.5 Flash
-Tavily
-BeautifulSoup
-Requests
-Streamlit
-python-dotenv
+Python,
+LangChain,
+Google Gemini 2.5 Flash,
+Tavily,
+BeautifulSoup,
+Requests,
+Streamlit,
+python-dotenv.
 
 ## 🧠 How It Works
 
